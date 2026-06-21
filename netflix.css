@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  height: 700px;
+}
+.hero-section {
+  height: 700px;
+  background-color: blue;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding-top: 20px;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  color: RED;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+    margin-right: 100px;
+}
+.button {
+  background-color: rgb(252, 33, 33);
+  height: 32px;
+  border: none;
+  width: 76px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: rgb(188, 8, 8);
+  transition-duration: 0.5s;
+}
+.information {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.text {
+  color: white;
+  font-size: 4rem;
+  font-weight: bolder;
+  width: min(600px, 100%);
+  text-align: center;
+}
+.price {
+  height: 50px;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.suggestion {
+  height: 50px;
+  color: white;
+  font-size: 1.2rem;
+}
+.email {
+  height: 35px;
+  width: min(400px, 100%);
+  background-color: transparent;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.email::placeholder {
+  color: white;
+}
+.send {
+  height: 60px;
+  width: 200px;
+
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+}
+.movie {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.movie h3 {
+  flex-basis: 100%;
+}
+.animate:hover {
+  transform: scale(1.1);
+}
+.animate {
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-property: all;
+}
+.info-desk h3 {
+  font-size: 1.5rem;
+  margin: 20px 0 0;
+}
+.tv {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+.info-section {
+  height: 100vh;
+  background-color: black;
+}
+
+.box {
+  height: 290px;
+  width: min(290px, 100%);
+  background-color: purple;
+  border-radius: 30px;
+  padding-top: 20px;
+}
+.info-desk2 {
+  height: 100vh;
+  background-color: black;
+}
+.info-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.info-desk2 h3 {
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+.box p {
+  /* text-align: center; */
+  opacity: 0.8;
+  font-size: 1.3rem;
+}
+.box h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+.email {
+  height: 59px;
+}
+.send {
+  text-align: center;
+}
+.icn {
+  font-size: 2rem;
+  position: relative;
+
+  left: 230px;
+  top: 100px;
+}
+.in {
+  font-size: 2rem;
+  position: relative;
+
+  left: 230px;
+  top: 80px;
+}
+.mcq h2 {
+  color: white;
+  margin-top: 30px;
+}
+.ques1 {
+  height: 100px;
+  width: 80%;
+  margin-top: 10px;
+  background-color: gray;
+  padding-left: 20px;
+}
+.question {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.can {
+  font-size: 2rem;
+  display: flex;
+  cursor: pointer;
+}
+.plus {
+  position: absolute;
+  right: 180px;
+  font-size: 3rem;
+}
+.ques1:hover {
+  background-color: rgb(167, 156, 156);
+}
+.end {
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.end h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+.get {
+  display: flex;
+  gap: 10px;
+
+}
+.last {
+  width: 500px;
+  height: 45px;
+  background-color: transparent;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  padding-left: 20px;
+  color: white;
+  margin-top: 20px;
+ font-size: 1.3rem;
+}
+.not{ background-color: red;
+color: white;
+height: 45px;
+width: 200px;
+margin-top: 20px;
+border: none;
+border-radius: 6px;
+font-size: 1.2rem;}
+.why-not h1{ color: white;
+font-size:  1rem;
+font-weight: 100}
+footer{ background-color: black;
+height: 100vh;}
+.why-not{ display: flex;
+flex-direction: column;
+gap: 50px;
+padding-left: 150px;
+margin-top: 100px;}
+.more{ display: flex;
+flex-wrap: wrap;
+column-gap: 150px;
+width: 90%;
+}
+.gap{ gap:15px;
+display: flex;
+flex-direction: column;}
+.gap h1{ font-weight: 100;
+color: rgb(202, 185, 185);}
+.gap a{ text-decoration-color: gray;}
+
+.koni{ width: 100px;
+height: 30px;
+background-color: black;
+color: white;}
+.net{ color: grey;}
