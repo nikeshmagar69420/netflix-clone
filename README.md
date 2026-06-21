@@ -1,2 +1,4 @@
 # netflix-clone
-I made this netflx clone after learing html and css only didnt watch a single tutorial just me a chatgpt for some advice
+This is a netflix UI clone built using HTML and CSS
+<br>
+It was created as a practice project to improve my frontend skill 
